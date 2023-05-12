@@ -1,0 +1,319 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+	
+
+body {
+	font-family: sans-serif;
+	background-color: #ffffff;
+}
+#logo1{
+width: 20%;
+height: 200px;
+}
+
+header {
+	margin: auto 7%;
+	background-color: #ffffff;
+	position: static;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.input-box {
+position: relative;
+height: 50px;
+max-width: 800px;
+width: 60%;
+background: #fff;
+margin: 0 50px;
+margin-top: 20px;
+border-radius: 8px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box:hover{
+color: rgb(255, 255, 255);
+box-shadow: 10px black ;
+}
+
+.input-box i,
+.input-box .button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+.input-box i {
+left: 20px;
+font-size: 30px;
+color: #707070;
+}
+
+.input-box form{
+	padding-top: 13px;
+}
+
+.input-box input {
+height: 100%;
+width: 450px;
+outline: none;
+font-size: 18px;
+font-weight: 400;
+border: none;
+padding-left: 90px;
+}
+.input-box .button {
+right: 20px;
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+border: none;
+padding: 12px 30px;
+border-radius: 6px;
+background-color: #005091;
+cursor: pointer;
+}
+
+
+nav{
+	height: 56px;
+	align-items: center;
+	margin-bottom: 100px;
+}
+nav ul {
+	margin-bottom: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3a52d6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav li{
+	margin-right: 10px;
+	padding-inline: 5px;
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px 4px;
+}
+
+nav a:hover {
+	background-color: #ffffff;
+	color: #3a52d6;
+	border-radius: 5px;
+}
+
+#Categories{
+margin-right: 0;
+padding-right: 0;
+width: 170px;
+display: flex;
+align-items: center;
+}
+
+#cat{
+padding-top: 0px;
+}
+
+.hero {
+	background-color: #3a52d6;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+	margin-bottom: 50px;
+	align-content: center;
+}
+
+#welcome{
+padding-top: 30px;
+}
+
+.hero h2 {
+	padding: 20px 20px;
+	font-size: 30px;
+}
+
+.hero p {
+	padding:10px  20px ;
+	font-size: 24px;
+}
+
+#symbol{
+width: 600px;	
+height: 250px;
+}
+
+
+#seccategories{
+padding: 10px 10px;
+}
+
+#seccategories ul{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#seccategories li{
+	list-style: none;
+}
+
+#seccategories img{
+	width: 150px;
+	height: 150px;
+	border-radius: 9px;
+}
+
+#seccategories h3 {
+	color: rgb(0, 0, 0);
+}
+.products {
+	margin-top: 40px;
+}
+
+.products h2 {
+	background-color:#3f4556;
+	color:#ffffff;
+	margin:80px 35%;
+	padding:5px;
+	border-radius: 8px;
+	text-align:center;
+	font-size:36px;
+}
+
+.products a{
+	text-decoration: none;
+}
+
+#pppp{
+	width: fit-content;
+	height: fit-content;
+}
+.products ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20%;
+	border-radius: 5px;
+}
+
+.products li {
+	width: 300px;
+	height: 400px;
+	border: 1px solid rgb(202, 198, 198);
+	padding-bottom: 0px;
+}
+
+.products li:last-child {
+	margin-right: 0;
+}
+
+.products img {
+	text-align: center;
+	width: 280px;
+	height: 280px;
+	padding: 2px 10px;
+	margin: 0px 0px;
+	border-radius: 5px;
+}
+
+.products h3 {
+	font-size: 15px;
+	margin-top: 0px;
+	color: rgb(163, 59, 59);
+}
+
+.products h4 {
+	font-size: 15px;
+	margin-top: 10px;
+	color: rgb(102, 50, 199);
+}
+
+.prix{
+	font-size: 20px;
+	color: red;
+}
+	
+.see{
+	background-color:#3f4556;
+	color:#ffffff;
+	margin:80px 35%;
+	padding:5px;
+	border-radius: 8px;
+	text-align:center;
+	font-size:36px;
+}
+
+
+#social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 5px;
+	margin-top: 15px;
+	border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+ #social{
+	text-align: center;
+ }
+
+ hr{
+	margin-top: 20px;
+	color: beige; 
+	font-size: large;
+ }
+ #kh{
+	font-family: sans-serif;
+ }
+  
+footer {
+	color: #ffffff;
+	background: linear-gradient(135deg,rgb(12, 10, 10),rgb(57, 38, 38));
+	padding: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
